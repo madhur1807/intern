@@ -1,6 +1,6 @@
 .first{
 	border:2px solid black;
-	max-width: 33%;
+	width:33%;
 	margin-top:80px;
 	margin-bottom:80px;
 	background-color: white;
@@ -68,4 +68,31 @@ body{
 	margin-left:20px;
 	color:red;
 	font-size: 15px;
+}
+@media screen and (max-width:480px) {
+	.first{
+	border:2px solid black;
+	width:85%;
+	margin-top:80px;
+	margin-bottom:80px;
+	background-color: white;
+
+}
+.pbutton {
+	float:left;
+}
+.sbutton{
+	float:left;
+}
+}
+
+@media screen and (max-width:640px){
+	.first{
+	border:2px solid black;
+	width:85%;
+	margin-top:80px;
+	margin-bottom:80px;
+	background-color: white;
+
+}
 }
